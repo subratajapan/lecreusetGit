@@ -1,0 +1,9 @@
+2016-11-13 13:52:08 Error: [MissingControllerException] Controller class SdsadaController could not be found.
+Exception Attributes: array (
+  'class' => 'SdsadaController',
+  'plugin' => NULL,
+)
+Request URL: /demo/lecreuset/sdsada
+Stack Trace:
+#0 /home/sawrish/www/demo/lecreuset/app/webroot/index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

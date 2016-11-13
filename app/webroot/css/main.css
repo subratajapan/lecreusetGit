@@ -1,0 +1,96 @@
+body {
+font-size: 14px;
+line-height: 150%;
+color: #572C1D;
+font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", Helvetica, Arial, Sans-Serif;
+}
+
+.globaltopborder{
+	color:#FFF;
+	background-color:#251716;
+	padding:5px;
+	}
+
+.img-responsive {
+	max-width:100%;
+	height:auto;
+}
+
+.nowrap{
+	white-space: nowrap;
+}
+
+a:hover img.overwhite{
+    cursor:pointer;
+    filter: alpha(opacity=60);        /* ie lt 8 */
+    -ms-filter: "alpha(opacity=60)";  /* ie 8 */
+    -moz-opacity:0.6;                 /* FF lt 1.5, Netscape */
+    -khtml-opacity: 0.6;              /* Safari 1.x */
+    opacity:0.6;
+    zoom:1;
+}
+
+.padleftright0{
+	padding:0px;
+}
+.padmarginleftright0{
+	padding-left:0px;
+	padding-right:0px;
+	margin-left:0px;
+	margin-right:0px;
+}
+.logopadtopbot1{
+	padding-top:12px;
+	padding-bottom:5px;
+}
+.logopadtopbot2{
+	padding-top:10px;
+	padding-bottom:5px;
+}
+
+.padleft0{
+	padding:0px;
+}
+.padright0{
+	padding:0px;
+}
+.rowbgcolor{
+	background-color:#DCD7CF;
+	border-radius: 5px;
+	margin-bottom:25px;
+}
+.redcolor{
+	color:#F00;	
+	}
+.error{
+	color:#F00;	
+	}
+.form-horizontal .form-group {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-horizontal .control-label {
+    padding-top: 7px;
+    margin-bottom: 0px;
+    text-align: right;
+}
+.form-horizontal .control-label2 {
+    padding-top: 0px;
+    margin-bottom: 0px;
+    text-align: right;
+}
+@media (max-width: 767px) {
+.form-group {
+    margin-bottom: 0px;
+}
+}
+
+.footertext{
+color:#fff;
+padding-top: 13px;
+padding-bottom:5px;
+text-align:center;
+}
